@@ -46,10 +46,43 @@ CALL SingleCourse('Gagnanotkun');
 --  NewCourse er með out parameterinn number_of_inserted_rows sem skilar fjölda þeirra
 --  raða sem vistaðar voru í gagnagrunninum.  Til þess notið þið MySQL function: row_count()
 
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `NewCourse` $$
+
+CREATE PROCEDURE NewCourse(IN course_Number VARCHAR(255), IN course_Name VARCHAR(255), IN course_Credits INT)
+
+BEGIN
+  INSERT INTO `0712982139_progresstracker_v1`.courses (courseNumber, courseName, courseCredits) VALUES (course_Number, course_Name, course_Credits);
+END $$
+
+DELIMITER ;
+
+CALL NewCourse('FOR35GU', 'Leikjaforritun', 3);
+
+
 
 -- 4:	UpdateCourse()
 --  Hér eru notaðar sömu færibreytur og í lið 3.  Áfanganúmerið er notað til að uppfæra réttan kúrs.alter
 -- row_count( fallið er hér notað líka.
+
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `UpdateCourse` $$
+
+CREATE PROCEDURE UpdateCourse(IN old_course_Number VARCHAR(255),IN course_Number VARCHAR(255), IN course_Name VARCHAR(255), IN course_Credits INT)
+
+BEGIN
+  UPDATE  0712982139_progresstracker_v1.courses SET  courseNumber =  course_Number, courseName =  course_Name, courseCredits = course_Credits  WHERE  courses.courseNumber =  old_course_Number;
+END $$
+
+DELIMITER ;
+
+CALL UpdateCourse('FOR35Gh','FOR35GU', 'Leikjaforritun 2', 3);
 
 
 -- 5:	DeleteCourse()
