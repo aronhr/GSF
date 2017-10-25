@@ -30,15 +30,15 @@ DELIMITER $$
 
 DROP PROCEDURE IF EXISTS `SingleCourse` $$
 
-CREATE PROCEDURE SingleCourse(IN course_Name VARCHAR(255))
+CREATE PROCEDURE SingleCourse(IN course_Number VARCHAR(255))
 
 BEGIN
-  SELECT * FROM `0712982139_progresstracker_v1`.courses WHERE courseName = course_Name;
+  SELECT * FROM `0712982139_progresstracker_v1`.courses WHERE courseNumber = course_Number;
 END $$
 
 DELIMITER ;
 
-CALL SingleCourse('Gagnanotkun');
+CALL SingleCourse('FOR35GU');
 
 -- 3:   NewCourse()
 --  Nýskráir áfanga í gagnagrunninn.
@@ -89,7 +89,26 @@ CALL UpdateCourse('FOR35Gh','FOR35GU', 'Leikjaforritun 2', 3);
 -- Áfanganúmer(courseNumber) er notað hérna til að eyða réttum kúrs.
 -- ATH: Ef verið er að nota kúrsinn einhversstaðar(sé hann skráður á TrackCourses) þá má EKKI eyða honum.
 -- Sé hins vegar hvergi verið að nota hann má eyða honum úr Courses töflunni og einnig Restrictors töflunni.alter
--- sem fyrr er out parameter notaður til að "skila" fjölda þeirra raða sem eytt var úr töflunni COurses
+-- sem fyrr er out parameter notaður til að "skila" fjölda þeirra raða sem eytt var úr töflunni Courses
+
+## DELETE FROM `0712982139_progresstracker_v1`.`courses` WHERE `courses`.`courseNumber` = 'FOR3G3U'
+
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP PROCEDURE IF EXISTS `DeleteCourse` $$
+
+CREATE PROCEDURE DeleteCourse(IN course_Number VARCHAR(255))
+
+BEGIN
+ DELETE FROM 0712982139_progresstracker_v1.courses WHERE courses.courseNumber = course_Number;
+END $$
+
+DELIMITER ;
+
+CALL DeleteCourse('STÆ703');
+
 
 -- ********************** -- Skrifið eftirfarandi functions: --**********************
 
