@@ -115,11 +115,47 @@ CALL DeleteCourse('STÆ703');
 -- 6:	NumberOfCourses()
 -- fallið skilar heildarfjölda allra áfanga í grunninum
 
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP FUNCTION IF EXISTS NumberOfCourses $$
+
+CREATE FUNCTION NumberOfCourses()
+
+RETURNS INT(11)
+
+BEGIN
+RETURN(SELECT COUNT(courseNumber) FROM courses);
+END $$
+
+DELIMITER ;
+
+SELECT NumberOfCourses();
+
+
 
 -- 7:	TotalTRackCredits()
 --  Fallið skilar heildar einingafjölda ákveðinnar námsbrautar(track)
 --  Senda þarf trackID inn sem færibreytu
 
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP FUNCTION IF EXISTS TotalTRackCredits;
+
+CREATE FUNCTION TotalTRackCredits(track_ID INT)
+
+RETURNS INT(11)
+
+BEGIN
+    RETURN(SELECT COUNT(*) FROM TrackCourses WHERE trackID = track_ID);
+END $$
+
+DELIMITER ;
+
+SELECT TotalTRackCredits(9);
 
 -- 8:   HighestCredits()
 -- Fallið skilar einingafjölda þess námskeiðs(þeirra námskeiða) sem hafa flestar eininar.
