@@ -162,10 +162,65 @@ SELECT TotalTRackCredits(9);
 -- ATH:  Það geta fleiri en einn kúrs verið með sama einingafjöldann. :að á ekki að hafa 
 -- áhfri á niðurstöðuna.
 
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP FUNCTION IF EXISTS HighestCredits;
+
+CREATE FUNCTION HighestCredits()
+
+RETURNS INT(11)
+
+BEGIN
+    RETURN(SELECT MAX(courseCredits) FROM Courses);
+END $$
+
+DELIMITER ;
+
+SELECT HighestCredits();
+
 
 -- 9:  TopTracksDivision()
 -- Fallið skilað toppfjölda námsbrauta(tracks) sem tilheyra námsbrautum(Divisions)
 
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP FUNCTION IF EXISTS TopTracksDivision;
+
+CREATE FUNCTION TopTracksDivision()
+
+RETURNS INT(11)
+
+BEGIN
+    RETURN(SELECT COUNT(*) AS Track_Count FROM Tracks GROUP BY divisionID ORDER BY Track_Count DESC LIMIT 1);
+END $$
+
+DELIMITER ;
+
+SELECT TopTracksDivision();
+
+
 -- 10:  leastRestrictedCourseNumber()
 -- Fallið skilar minnsta fjölda kúrsa í Restrictors töflunni.
--- ATH:  Ef kúrs eða kúrsar eru t.d. með einn undanfara þog ekkert meir þá myndi fallið skila 1 
+-- ATH:  Ef kúrs eða kúrsar eru t.d. með einn undanfara þog ekkert meir þá myndi fallið skila 1
+
+use 0712982139_progresstracker_v1;
+
+DELIMITER $$
+
+DROP FUNCTION IF EXISTS leastRestrictedCourseNumber;
+
+CREATE FUNCTION leastRestrictedCourseNumber()
+
+RETURNS INT(11)
+
+BEGIN
+    RETURN(SELECT COUNT(*) AS Course_Count FROM Restrictors GROUP BY courseNumber ORDER BY Course_Count ASC LIMIT 1);
+END $$
+
+DELIMITER ;
+
+SELECT leastRestrictedCourseNumber();
