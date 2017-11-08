@@ -81,3 +81,12 @@ insert into Restrictors values('GSF2B3U','GSF2B3U',1);
 --	 TBR16 15
 --	Aðeins skal velja áfanga þar sem einkunn er >= 5.
 --	Sé verið að nota staðið/fallið þá skal velja "staðið".
+
+
+
+
+-- 5.
+--	Skrifið cursor sem sækir alla skylduáfanga sem nemandi þarf að taka og setur þá í töfluna sem
+--	geymir áfanga sem hann hefur valið. Setjið cursorinn í stored procedure sem gæti heitið eitthvað
+--	"AddMandtoryCourses” og er keyrður þegar nemandinn velur sér námsleið(sú aðgerð gæti verið í
+--	SP sem heitir "NewStudent”)
