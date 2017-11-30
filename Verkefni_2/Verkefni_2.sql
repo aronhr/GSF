@@ -82,6 +82,31 @@ insert into Restrictors values('GSF2B3U','GSF2B3U',1);
 --	Aðeins skal velja áfanga þar sem einkunn er >= 5.
 --	Sé verið að nota staðið/fallið þá skal velja "staðið".
 
+use 0712982139_progresstracker_v1;
+
+DROP PROCEDURE IF EXISTS StudentProgress;
+
+DELIMITER $$
+
+CREATE PROCEDURE StudentProgress(IN sID char(10))
+BEGIN
+    SELECT Tracks.trackName, sum(Courses.courseCredits) as totalCredits
+    FROM StudentCourses
+    INNER JOIN Courses
+    ON StudentCourses.courseNumber = Courses.courseNumber
+	INNER JOIN TrackCourses
+    ON Courses.courseNumber = TrackCourses.courseNumber
+	INNER JOIN Tracks
+    ON TrackCourses.trackID = Tracks.trackID
+    INNER JOIN Students
+    ON Students.studentID = StudentCourses.studentID
+    WHERE StudentCourses.grade >= 5 AND StudentCourses.studentID = sID
+    GROUP BY Tracks.trackName;
+END $$
+
+DELIMITER ;
+
+call StudentProgress('0712982139');
 
 
 
