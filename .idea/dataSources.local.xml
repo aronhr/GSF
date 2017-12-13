@@ -9,7 +9,7 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>0712982139</user-name>
-      <introspection-schemas>*:0712982139_company</introspection-schemas>
+      <introspection-schemas>*:0712982139_progresstracker_v1</introspection-schemas>
     </data-source>
   </component>
 </project>
