@@ -51,7 +51,7 @@ CREATE FUNCTION progressTrackerJSON(s_ID int) RETURNS JSON
 			END LOOP courses_loop;
 			CLOSE course_cursor;
 
-			SET s_info = JSON_OBJECT('ID', s_studentID, 'studentName', s_studentName, 'trackID', c_trackID, 'courses', s_courses);
+			SET s_info = JSON_OBJECT('kennitala', s_studentID, 'studentName', s_studentName, 'trackId', c_trackID, 'courses', s_courses);
 
 			SET json = JSON_ARRAY_APPEND(json, '$.semester.students', s_info);
 
