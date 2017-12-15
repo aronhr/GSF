@@ -43,8 +43,4 @@ END $$
 
 DELIMITER ;
 
-<<<<<<< HEAD
 CALL ElectedCourses(0712980139);
-=======
-CALL ElectedCourses(0712982139);
->>>>>>> 765502f9ea61041fb8f88a13020c3f5d04a9a972
