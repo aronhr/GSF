@@ -8,7 +8,7 @@ DROP TABLE IF EXISTS students;
 
 CREATE TABLE students
 (
-	  studentID INT,
+	studentID INT,
     studentName VARCHAR(255),
     trackID INT,
     CONSTRAINT studentID PRIMARY KEY (studentID),

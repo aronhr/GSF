@@ -53,46 +53,92 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6849624">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-            <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="32" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GSF2B3U_in_out_parameters_Demo.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="GSF2B3U_in_out_parameters_Demo.sql" pinned="false" current-in-tab="true">
-            <entry file="file://$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="41">
-                  <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="37" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="95" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GSF2B3U_in_out_parameters_Demo.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0712982139_progresstracker_v1 (4).sql" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/0712982139_progresstracker_v1 (4).sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="345" column="0" lean-forward="false" selection-start-line="341" selection-start-column="2" selection-end-line="345" selection-end-column="0" />
+              <folding>
+                <marker date="1513258758379" expanded="true" signature="258:322" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="324:390" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="392:456" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="458:484" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="637:690" ph="SELECT * FRO... courses" />
+                <marker date="1513258758379" expanded="true" signature="794:886" ph="DELETE FROM 0712982139_progresstracker_v1.courses... " />
+                <marker date="1513258758379" expanded="true" signature="982:1274" ph="SELECT cours... courses" />
+                <marker date="1513258758379" expanded="true" signature="1084:1249" ph="SELECT cours... studentcourses" />
+                <marker date="1513258758379" expanded="true" signature="1590:1620" ph="SELECT schoo... Schools" />
+                <marker date="1513258758379" expanded="true" signature="1747:1763" ph="OPEN json_cu... " />
+                <marker date="1513258758379" expanded="true" signature="2256:2273" ph="CLOSE json_c... " />
+                <marker date="1513258758379" expanded="true" signature="2608:2637" ph="PREPARE stmt... " />
+                <marker date="1513258758379" expanded="true" signature="2643:2656" ph="EXECUTE stmt... " />
+                <marker date="1513258758379" expanded="true" signature="2659:2683" ph="DEALLOCATE P... " />
+                <marker date="1513258758379" expanded="true" signature="2980:3125" ph="INSERT INTO `0712982139_progresstracker_v1`.courses... " />
+                <marker date="1513258758379" expanded="true" signature="3230:3318" ph="SELECT * FRO... courses" />
+                <marker date="1513258758379" expanded="true" signature="3414:3909" ph="SELECT Track... StudentCourses" />
+                <marker date="1513258758379" expanded="true" signature="4100:4289" ph="UPDATE 0712982139_progresstracker_v1.courses " />
+                <marker date="1513258758379" expanded="true" signature="4670:4729" ph="SELECT cours... courses" />
+                <marker date="1513258758379" expanded="true" signature="4770:4839" ph="SELECT cours... studentcourses" />
+                <marker date="1513258758379" expanded="true" signature="5005:5021" ph="OPEN json_cu... " />
+                <marker date="1513258758379" expanded="true" signature="5202:5220" ph="OPEN course_... " />
+                <marker date="1513258758379" expanded="true" signature="5467:5486" ph="CLOSE course... " />
+                <marker date="1513258758379" expanded="true" signature="5662:5679" ph="CLOSE json_c... " />
+                <marker date="1513258758379" expanded="true" signature="6578:6630" ph="SELECT stude... students" />
+                <marker date="1513258758379" expanded="true" signature="6671:6762" ph="SELECT cours... studentcourses" />
+                <marker date="1513258758379" expanded="true" signature="6996:7012" ph="OPEN json_cu... " />
+                <marker date="1513258758379" expanded="true" signature="7188:7206" ph="OPEN course_... " />
+                <marker date="1513258758379" expanded="true" signature="7443:7462" ph="CLOSE course... " />
+                <marker date="1513258758379" expanded="true" signature="7683:7700" ph="CLOSE json_c... " />
+                <marker date="1513258758379" expanded="true" signature="8224:8488" ph="CREATE TABLE... IF" />
+                <marker date="1513258758379" expanded="true" signature="8534:9217" ph="INSERT INTO `courses`... " />
+                <marker date="1513258758379" expanded="true" signature="9332:9664" ph="CREATE TABLE... IF" />
+                <marker date="1513258758379" expanded="true" signature="9753:9988" ph="ALTER TABLE `trackcourses`... " />
+                <marker date="1513258758379" expanded="true" signature="9991:10053" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="10055:10119" ph="/*!40101 SET... " />
+                <marker date="1513258758379" expanded="true" signature="10121:10183" ph="/*!40101 SET... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lokaverkefni.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Verkefni_5/Lokaverkefni.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>maxlimit</find>
+      <find>semesternumber</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,9 +149,10 @@
         <option value="$PROJECT_DIR$/Verkefni_2/Verkefni_2.sql" />
         <option value="$PROJECT_DIR$/Verkefni_2/Verkefni_3.sql" />
         <option value="$PROJECT_DIR$/Verkefni_3/Verkefni_3.sql" />
-        <option value="$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql" />
         <option value="$PROJECT_DIR$/Lokaverkefni/Lokaverkefni.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql" />
+        <option value="$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql" />
+        <option value="$PROJECT_DIR$/Verkefni_5/Lokaverkefni.sql" />
       </list>
     </option>
   </component>
@@ -187,24 +234,14 @@
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39449543" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,8 +255,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Verkefni_2/Verkefni_3.sql" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql" />
     <entry file="file://$PROJECT_DIR$/Verkefni_2/Verkefni_2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -258,7 +293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -270,14 +304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lokaverkefni/Lokaverkefni.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lokaverkefni/Lokaverkefni.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -412,26 +439,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lokaverkefni/Lokaverkefni.sql" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/53c08c63-09c3-4265-bc47-65a02adb791c/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="0">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="95" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lokaverkefni/Lokaverkefni.sql">
+    <entry file="file://$USER_HOME$/Downloads/0712982139_progresstracker_v1 (4).sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="554">
+          <caret line="345" column="0" lean-forward="false" selection-start-line="341" selection-start-column="2" selection-end-line="345" selection-end-column="0" />
+          <folding>
+            <marker date="1513258758379" expanded="true" signature="258:322" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="324:390" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="392:456" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="458:484" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="637:690" ph="SELECT * FRO... courses" />
+            <marker date="1513258758379" expanded="true" signature="794:886" ph="DELETE FROM 0712982139_progresstracker_v1.courses... " />
+            <marker date="1513258758379" expanded="true" signature="982:1274" ph="SELECT cours... courses" />
+            <marker date="1513258758379" expanded="true" signature="1084:1249" ph="SELECT cours... studentcourses" />
+            <marker date="1513258758379" expanded="true" signature="1590:1620" ph="SELECT schoo... Schools" />
+            <marker date="1513258758379" expanded="true" signature="1747:1763" ph="OPEN json_cu... " />
+            <marker date="1513258758379" expanded="true" signature="2256:2273" ph="CLOSE json_c... " />
+            <marker date="1513258758379" expanded="true" signature="2608:2637" ph="PREPARE stmt... " />
+            <marker date="1513258758379" expanded="true" signature="2643:2656" ph="EXECUTE stmt... " />
+            <marker date="1513258758379" expanded="true" signature="2659:2683" ph="DEALLOCATE P... " />
+            <marker date="1513258758379" expanded="true" signature="2980:3125" ph="INSERT INTO `0712982139_progresstracker_v1`.courses... " />
+            <marker date="1513258758379" expanded="true" signature="3230:3318" ph="SELECT * FRO... courses" />
+            <marker date="1513258758379" expanded="true" signature="3414:3909" ph="SELECT Track... StudentCourses" />
+            <marker date="1513258758379" expanded="true" signature="4100:4289" ph="UPDATE 0712982139_progresstracker_v1.courses " />
+            <marker date="1513258758379" expanded="true" signature="4670:4729" ph="SELECT cours... courses" />
+            <marker date="1513258758379" expanded="true" signature="4770:4839" ph="SELECT cours... studentcourses" />
+            <marker date="1513258758379" expanded="true" signature="5005:5021" ph="OPEN json_cu... " />
+            <marker date="1513258758379" expanded="true" signature="5202:5220" ph="OPEN course_... " />
+            <marker date="1513258758379" expanded="true" signature="5467:5486" ph="CLOSE course... " />
+            <marker date="1513258758379" expanded="true" signature="5662:5679" ph="CLOSE json_c... " />
+            <marker date="1513258758379" expanded="true" signature="6578:6630" ph="SELECT stude... students" />
+            <marker date="1513258758379" expanded="true" signature="6671:6762" ph="SELECT cours... studentcourses" />
+            <marker date="1513258758379" expanded="true" signature="6996:7012" ph="OPEN json_cu... " />
+            <marker date="1513258758379" expanded="true" signature="7188:7206" ph="OPEN course_... " />
+            <marker date="1513258758379" expanded="true" signature="7443:7462" ph="CLOSE course... " />
+            <marker date="1513258758379" expanded="true" signature="7683:7700" ph="CLOSE json_c... " />
+            <marker date="1513258758379" expanded="true" signature="8224:8488" ph="CREATE TABLE... IF" />
+            <marker date="1513258758379" expanded="true" signature="8534:9217" ph="INSERT INTO `courses`... " />
+            <marker date="1513258758379" expanded="true" signature="9332:9664" ph="CREATE TABLE... IF" />
+            <marker date="1513258758379" expanded="true" signature="9753:9988" ph="ALTER TABLE `trackcourses`... " />
+            <marker date="1513258758379" expanded="true" signature="9991:10053" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="10055:10119" ph="/*!40101 SET... " />
+            <marker date="1513258758379" expanded="true" signature="10121:10183" ph="/*!40101 SET... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/GSF2B3U_in_out_parameters_Demo.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Verkefni_5/Lokaverkefni.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="63" column="32" lean-forward="false" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
